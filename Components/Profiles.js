@@ -1,7 +1,7 @@
 import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, TouchableOpacity, View, Image } from 'react-native'
 import { connect } from 'react-redux'
-import { ListItem } from 'react-native-elements'
+import { ListItem, Icon } from 'react-native-elements'
 import { _removeProfile, _removeAllProfiles, _addProfile, _retrieveProfiles, getProfiles } from "../Store/Storage";
 
 class Profiles extends React.Component {
@@ -30,8 +30,31 @@ class Profiles extends React.Component {
 
   render() {
     return (
-        <View>
-            { this.rows }
+        <View style={{ flex: 1 }}>
+            <View>
+                { this.rows }
+            </View>
+
+            <TouchableOpacity
+                style={{
+                    borderWidth:1,
+                    borderColor:'rgb(93, 156, 236)',
+                    alignItems:'center',
+                    justifyContent:'center',
+                    width: 70,
+                    position: 'absolute',
+                    bottom: 10,
+                    right: 10,
+                    height: 70,
+                    backgroundColor: 'rgb(93, 156, 236)',
+                    zIndex: 100,
+                    borderRadius: 100,
+                    shadowColor: '#000',
+                    elevation: 5,
+                }}
+            >
+                <Image style={{width: 50, height: 50}} source={require('../Images/ic_plus.png')} />
+            </TouchableOpacity>
         </View>
     )
   }
