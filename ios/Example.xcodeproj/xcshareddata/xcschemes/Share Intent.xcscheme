@@ -18,7 +18,7 @@
                BlueprintIdentifier = "B820840F2307256D00CF75D4"
                BuildableName = "Share Intent.appex"
                BlueprintName = "Share Intent"
-               ReferencedContainer = "container:AjarisUploader.xcodeproj">
+               ReferencedContainer = "container:AjarisUploaderMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AjarisUploader.app"
-               BlueprintName = "AjarisUploader"
-               ReferencedContainer = "container:AjarisUploader.xcodeproj">
+               BuildableName = "AjarisUploaderMobile.app"
+               BlueprintName = "AjarisUploaderMobile"
+               ReferencedContainer = "container:AjarisUploaderMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AjarisUploader.app"
-            BlueprintName = "AjarisUploader"
-            ReferencedContainer = "container:AjarisUploader.xcodeproj">
+            BuildableName = "AjarisUploaderMobile.app"
+            BlueprintName = "AjarisUploaderMobile"
+            ReferencedContainer = "container:AjarisUploaderMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AjarisUploader.app"
-            BlueprintName = "AjarisUploader"
-            ReferencedContainer = "container:AjarisUploader.xcodeproj">
+            BuildableName = "AjarisUploaderMobile.app"
+            BlueprintName = "AjarisUploaderMobile"
+            ReferencedContainer = "container:AjarisUploaderMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -110,9 +110,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AjarisUploader.app"
-            BlueprintName = "AjarisUploader"
-            ReferencedContainer = "container:AjarisUploader.xcodeproj">
+            BuildableName = "AjarisUploaderMobile.app"
+            BlueprintName = "AjarisUploaderMobile"
+            ReferencedContainer = "container:AjarisUploaderMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

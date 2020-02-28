@@ -1,5 +1,5 @@
 {
-  "name": "AjarisUploader",
+  "name": "AjarisUploaderMobile",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,12 +13,14 @@
     "numeral": "^2.0.6",
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-elements": "^1.2.7",
     "react-native-file-share-intent": "^1.1.2",
     "react-native-gesture-handler": "^1.6.0",
     "react-native-reanimated": "^1.7.0",
     "react-native-safe-area-context": "^0.7.3",
     "react-native-screens": "^2.0.0-beta.13",
     "react-native-share-extension": "^2.0.0",
+    "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.2.1",
     "react-navigation-stack": "^2.2.1",
     "react-navigation-tabs": "^2.8.1",

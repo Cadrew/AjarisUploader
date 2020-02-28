@@ -6,9 +6,19 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import Search from "../Components/Search";
+import Profiles from "../Components/Profiles";
 import FilmDetail from "../Components/FilmDetail";
 import Favorites from "../Components/Favorites";
 import Test from "../Components/Test";
+
+const ProfilesStackNavigator = createStackNavigator({
+  Profiles: {
+    screen: Profiles,
+    navigationOptions: {
+      title: "Profiles"
+    }
+  }
+});
 
 const SearchStackNavigator = createStackNavigator({
   Search: {
@@ -34,10 +44,20 @@ const FavoritesStackNavigator = createStackNavigator({
   }
 });
 
-const MoviesTabNavigator = createBottomTabNavigator(
+const AjarisTabNavigator = createBottomTabNavigator(
   {
-    Test: {
-      screen: Test
+    Profiles: {
+      screen: ProfilesStackNavigator,
+      navigationOptions: {
+        tabBarIcon: () => {
+          return (
+            <Image
+              source={require("../Images/ic_search.png")}
+              style={styles.icon}
+            />
+          );
+        }
+      }
     },
     Search: {
       screen: SearchStackNavigator,
@@ -83,4 +103,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default createAppContainer(MoviesTabNavigator);
+export default createAppContainer(AjarisTabNavigator);

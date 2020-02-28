@@ -1,4 +1,4 @@
-# AjarisUploader
+# AjarisUploaderMobile
 
 ## Lancer l'appli avec le Share Menu
 

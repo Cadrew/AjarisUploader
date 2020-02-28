@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AjarisUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AjarisUploaderTests.m */; };
+		00E356F31AD99517003FC87E /* AjarisUploaderMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AjarisUploaderMobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14DF52F454A22450177033B2 /* libPods-AjarisUploaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019B554E25F044A589B6BD0B /* libPods-AjarisUploaderTests.a */; };
+		14DF52F454A22450177033B2 /* libPods-AjarisUploaderMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019B554E25F044A589B6BD0B /* libPods-AjarisUploaderMobileTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* AjarisUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AjarisUploaderTests.m */; };
-		6CE01A5D331A16F198BEE88C /* libPods-AjarisUploader-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82084282307268200CF75D4 /* libPods-AjarisUploader-tvOSTests.a */; };
-		8D1BD0F3D00FD04D69DC7C17 /* libPods-AjarisUploader-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82084262307268200CF75D4 /* libPods-AjarisUploader-tvOS.a */; };
-		9E85335F9D3C8A98B6FE0654 /* libPods-AjarisUploader-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF668D2ADB4F432317AA11A /* libPods-AjarisUploader-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* AjarisUploaderMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AjarisUploaderMobileTests.m */; };
+		6CE01A5D331A16F198BEE88C /* libPods-AjarisUploaderMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82084282307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOSTests.a */; };
+		8D1BD0F3D00FD04D69DC7C17 /* libPods-AjarisUploaderMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82084262307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOS.a */; };
+		9E85335F9D3C8A98B6FE0654 /* libPods-AjarisUploaderMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF668D2ADB4F432317AA11A /* libPods-AjarisUploaderMobile-tvOS.a */; };
 		B82084142307256D00CF75D4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82084132307256D00CF75D4 /* ShareViewController.m */; };
 		B82084172307256D00CF75D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82084152307256D00CF75D4 /* MainInterface.storyboard */; };
 		B820841B2307256D00CF75D4 /* Share Intent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B82084102307256D00CF75D4 /* Share Intent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -30,8 +30,8 @@
 		B820851E2307C39C00CF75D4 /* libRNFileShareIntent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82084F62307B5D400CF75D4 /* libRNFileShareIntent.a */; };
 		B820854C2307C95900CF75D4 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82085492307C94F00CF75D4 /* libRCTNetwork.a */; };
 		B82085562307CA2500CF75D4 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82085532307C9BF00CF75D4 /* libRCTText.a */; };
-		DA0F9FDCA6FD10876EE16794 /* libPods-AjarisUploaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B820842C2307268200CF75D4 /* libPods-AjarisUploaderTests.a */; };
-		DB01FF4D4467D10AA13B3EBE /* libPods-AjarisUploader-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploader-tvOSTests.a */; };
+		DA0F9FDCA6FD10876EE16794 /* libPods-AjarisUploaderMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B820842C2307268200CF75D4 /* libPods-AjarisUploaderMobileTests.a */; };
+		DB01FF4D4467D10AA13B3EBE /* libPods-AjarisUploaderMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploaderMobile-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +40,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AjarisUploader;
+			remoteInfo = AjarisUploaderMobile;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "AjarisUploader-tvOS";
+			remoteInfo = "AjarisUploaderMobile-tvOS";
 		};
 		B82084192307256D00CF75D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -249,27 +249,27 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* AjarisUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjarisUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* AjarisUploaderMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjarisUploaderMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AjarisUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AjarisUploaderTests.m; sourceTree = "<group>"; };
-		019B554E25F044A589B6BD0B /* libPods-AjarisUploaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* AjarisUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjarisUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AjarisUploader/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AjarisUploader/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AjarisUploaderMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AjarisUploaderMobileTests.m; sourceTree = "<group>"; };
+		019B554E25F044A589B6BD0B /* libPods-AjarisUploaderMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploaderMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* AjarisUploaderMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjarisUploaderMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AjarisUploaderMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AjarisUploaderMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AjarisUploader/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AjarisUploader/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AjarisUploader/main.m; sourceTree = "<group>"; };
-		18A3837E4D6A193EA60BF02C /* Pods-AjarisUploader-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploader-tvOS/Pods-AjarisUploader-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* AjarisUploader-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AjarisUploader-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* AjarisUploader-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AjarisUploader-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderTests.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderTests/Pods-AjarisUploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		504D277AA69CE8B978FE363C /* Pods-AjarisUploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderTests.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderTests/Pods-AjarisUploaderTests.release.xcconfig"; sourceTree = "<group>"; };
-		58A343174D1893371DA553F8 /* Pods-AjarisUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploader/Pods-AjarisUploader.release.xcconfig"; sourceTree = "<group>"; };
-		5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploader-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploader-tvOS/Pods-AjarisUploader-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		880FC223A7FFD297DEA19F3F /* Pods-AjarisUploader-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploader-tvOSTests/Pods-AjarisUploader-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B009A65D148872EE9C4FDA0A /* libPods-AjarisUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C35E838FE65548F62FDE27 /* Pods-AjarisUploader-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploader-tvOSTests/Pods-AjarisUploader-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AjarisUploaderMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AjarisUploaderMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AjarisUploaderMobile/main.m; sourceTree = "<group>"; };
+		18A3837E4D6A193EA60BF02C /* Pods-AjarisUploaderMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile-tvOS/Pods-AjarisUploaderMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AjarisUploaderMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* AjarisUploaderMobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AjarisUploaderMobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobileTests/Pods-AjarisUploaderMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		504D277AA69CE8B978FE363C /* Pods-AjarisUploaderMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobileTests.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobileTests/Pods-AjarisUploaderMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		58A343174D1893371DA553F8 /* Pods-AjarisUploaderMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile/Pods-AjarisUploaderMobile.release.xcconfig"; sourceTree = "<group>"; };
+		5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploaderMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile-tvOS/Pods-AjarisUploaderMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		880FC223A7FFD297DEA19F3F /* Pods-AjarisUploaderMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile-tvOSTests/Pods-AjarisUploaderMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B009A65D148872EE9C4FDA0A /* libPods-AjarisUploaderMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploaderMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C35E838FE65548F62FDE27 /* Pods-AjarisUploaderMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile-tvOSTests/Pods-AjarisUploaderMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B82083E62307236A00CF75D4 /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82083E82307236A00CF75D4 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82083EA2307236A00CF75D4 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,10 +288,10 @@
 		B82084202307268200CF75D4 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82084222307268200CF75D4 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82084242307268200CF75D4 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B82084262307268200CF75D4 /* libPods-AjarisUploader-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploader-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B82084282307268200CF75D4 /* libPods-AjarisUploader-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploader-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B820842A2307268200CF75D4 /* libPods-AjarisUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B820842C2307268200CF75D4 /* libPods-AjarisUploaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82084262307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploaderMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82084282307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploaderMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B820842A2307268200CF75D4 /* libPods-AjarisUploaderMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploaderMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B820842C2307268200CF75D4 /* libPods-AjarisUploaderMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-AjarisUploaderMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B820842E2307268200CF75D4 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82084302307268200CF75D4 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82084322307268200CF75D4 /* libReact-DevSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-DevSupport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,9 +336,9 @@
 		B820853F2307C88500CF75D4 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82085432307C94E00CF75D4 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		B820854D2307C9BF00CF75D4 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		BD5BDAA12390473EB255698B /* Pods-AjarisUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploader.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploader/Pods-AjarisUploader.debug.xcconfig"; sourceTree = "<group>"; };
-		BDF668D2ADB4F432317AA11A /* libPods-AjarisUploader-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploader-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploader-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploader-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5BDAA12390473EB255698B /* Pods-AjarisUploaderMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjarisUploaderMobile.debug.xcconfig"; path = "Target Support Files/Pods-AjarisUploaderMobile/Pods-AjarisUploaderMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF668D2ADB4F432317AA11A /* libPods-AjarisUploaderMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploaderMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploaderMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AjarisUploaderMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -348,8 +348,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DF52F454A22450177033B2 /* libPods-AjarisUploaderTests.a in Frameworks */,
-				DA0F9FDCA6FD10876EE16794 /* libPods-AjarisUploaderTests.a in Frameworks */,
+				14DF52F454A22450177033B2 /* libPods-AjarisUploaderMobileTests.a in Frameworks */,
+				DA0F9FDCA6FD10876EE16794 /* libPods-AjarisUploaderMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +365,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E85335F9D3C8A98B6FE0654 /* libPods-AjarisUploader-tvOS.a in Frameworks */,
-				8D1BD0F3D00FD04D69DC7C17 /* libPods-AjarisUploader-tvOS.a in Frameworks */,
+				9E85335F9D3C8A98B6FE0654 /* libPods-AjarisUploaderMobile-tvOS.a in Frameworks */,
+				8D1BD0F3D00FD04D69DC7C17 /* libPods-AjarisUploaderMobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +374,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB01FF4D4467D10AA13B3EBE /* libPods-AjarisUploader-tvOSTests.a in Frameworks */,
-				6CE01A5D331A16F198BEE88C /* libPods-AjarisUploader-tvOSTests.a in Frameworks */,
+				DB01FF4D4467D10AA13B3EBE /* libPods-AjarisUploaderMobile-tvOSTests.a in Frameworks */,
+				6CE01A5D331A16F198BEE88C /* libPods-AjarisUploaderMobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,13 +395,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AjarisUploaderTests */ = {
+		00E356EF1AD99517003FC87E /* AjarisUploaderMobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AjarisUploaderTests.m */,
+				00E356F21AD99517003FC87E /* AjarisUploaderMobileTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AjarisUploaderTests;
+			path = AjarisUploaderMobileTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -415,19 +415,19 @@
 		13A6DB0A24407B5F4A31C5C8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD5BDAA12390473EB255698B /* Pods-AjarisUploader.debug.xcconfig */,
-				58A343174D1893371DA553F8 /* Pods-AjarisUploader.release.xcconfig */,
-				5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploader-tvOS.debug.xcconfig */,
-				18A3837E4D6A193EA60BF02C /* Pods-AjarisUploader-tvOS.release.xcconfig */,
-				B3C35E838FE65548F62FDE27 /* Pods-AjarisUploader-tvOSTests.debug.xcconfig */,
-				880FC223A7FFD297DEA19F3F /* Pods-AjarisUploader-tvOSTests.release.xcconfig */,
-				3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderTests.debug.xcconfig */,
-				504D277AA69CE8B978FE363C /* Pods-AjarisUploaderTests.release.xcconfig */,
+				BD5BDAA12390473EB255698B /* Pods-AjarisUploaderMobile.debug.xcconfig */,
+				58A343174D1893371DA553F8 /* Pods-AjarisUploaderMobile.release.xcconfig */,
+				5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploaderMobile-tvOS.debug.xcconfig */,
+				18A3837E4D6A193EA60BF02C /* Pods-AjarisUploaderMobile-tvOS.release.xcconfig */,
+				B3C35E838FE65548F62FDE27 /* Pods-AjarisUploaderMobile-tvOSTests.debug.xcconfig */,
+				880FC223A7FFD297DEA19F3F /* Pods-AjarisUploaderMobile-tvOSTests.release.xcconfig */,
+				3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderMobileTests.debug.xcconfig */,
+				504D277AA69CE8B978FE363C /* Pods-AjarisUploaderMobileTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AjarisUploader */ = {
+		13B07FAE1A68108700A75B9A /* AjarisUploaderMobile */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -438,7 +438,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AjarisUploader;
+			name = AjarisUploaderMobile;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -469,10 +469,10 @@
 				B82084202307268200CF75D4 /* libDoubleConversion.a */,
 				B82084222307268200CF75D4 /* libFolly.a */,
 				B82084242307268200CF75D4 /* libglog.a */,
-				B82084262307268200CF75D4 /* libPods-AjarisUploader-tvOS.a */,
-				B82084282307268200CF75D4 /* libPods-AjarisUploader-tvOSTests.a */,
-				B820842A2307268200CF75D4 /* libPods-AjarisUploader.a */,
-				B820842C2307268200CF75D4 /* libPods-AjarisUploaderTests.a */,
+				B82084262307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOS.a */,
+				B82084282307268200CF75D4 /* libPods-AjarisUploaderMobile-tvOSTests.a */,
+				B820842A2307268200CF75D4 /* libPods-AjarisUploaderMobile.a */,
+				B820842C2307268200CF75D4 /* libPods-AjarisUploaderMobileTests.a */,
 				B820842E2307268200CF75D4 /* libReact-Core.a */,
 				B82084302307268200CF75D4 /* libReact-cxxreact.a */,
 				B82084322307268200CF75D4 /* libReact-DevSupport.a */,
@@ -502,10 +502,10 @@
 				B82083F82307236A00CF75D4 /* libReact-RCTWebSocket.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B009A65D148872EE9C4FDA0A /* libPods-AjarisUploader.a */,
-				BDF668D2ADB4F432317AA11A /* libPods-AjarisUploader-tvOS.a */,
-				E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploader-tvOSTests.a */,
-				019B554E25F044A589B6BD0B /* libPods-AjarisUploaderTests.a */,
+				B009A65D148872EE9C4FDA0A /* libPods-AjarisUploaderMobile.a */,
+				BDF668D2ADB4F432317AA11A /* libPods-AjarisUploaderMobile-tvOS.a */,
+				E6B3C83D6761D6FA7C8E3A21 /* libPods-AjarisUploaderMobile-tvOSTests.a */,
+				019B554E25F044A589B6BD0B /* libPods-AjarisUploaderMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -525,9 +525,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AjarisUploader */,
+				13B07FAE1A68108700A75B9A /* AjarisUploaderMobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AjarisUploaderTests */,
+				00E356EF1AD99517003FC87E /* AjarisUploaderMobileTests */,
 				B82084112307256D00CF75D4 /* Share Intent */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -541,10 +541,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AjarisUploader.app */,
-				00E356EE1AD99517003FC87E /* AjarisUploaderTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* AjarisUploader-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* AjarisUploader-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* AjarisUploaderMobile.app */,
+				00E356EE1AD99517003FC87E /* AjarisUploaderMobileTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* AjarisUploaderMobile-tvOSTests.xctest */,
 				B82084102307256D00CF75D4 /* Share Intent.appex */,
 			);
 			name = Products;
@@ -622,9 +622,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AjarisUploaderTests */ = {
+		00E356ED1AD99517003FC87E /* AjarisUploaderMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AjarisUploaderTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AjarisUploaderMobileTests" */;
 			buildPhases = (
 				FBBA01520A9344CF11F9CFC8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -636,14 +636,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AjarisUploaderTests;
-			productName = AjarisUploaderTests;
-			productReference = 00E356EE1AD99517003FC87E /* AjarisUploaderTests.xctest */;
+			name = AjarisUploaderMobileTests;
+			productName = AjarisUploaderMobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* AjarisUploaderMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AjarisUploader */ = {
+		13B07F861A680F5B00A75B9A /* AjarisUploaderMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AjarisUploader" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile" */;
 			buildPhases = (
 				EA2A44CD25CCFC743D896E23 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -659,14 +659,14 @@
 				B82084A62307AC0900CF75D4 /* PBXTargetDependency */,
 				B820841A2307256D00CF75D4 /* PBXTargetDependency */,
 			);
-			name = AjarisUploader;
-			productName = AjarisUploader;
-			productReference = 13B07F961A680F5B00A75B9A /* AjarisUploader.app */;
+			name = AjarisUploaderMobile;
+			productName = AjarisUploaderMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* AjarisUploaderMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* AjarisUploader-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploader-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile-tvOS" */;
 			buildPhases = (
 				D5E42F8238703C028CAC0084 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -679,14 +679,14 @@
 			);
 			dependencies = (
 			);
-			name = "AjarisUploader-tvOS";
-			productName = "AjarisUploader-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* AjarisUploader-tvOS.app */;
+			name = "AjarisUploaderMobile-tvOS";
+			productName = "AjarisUploaderMobile-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* AjarisUploader-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploader-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile-tvOSTests" */;
 			buildPhases = (
 				C9E025BC28DF0FBF14126815 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -698,9 +698,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "AjarisUploader-tvOSTests";
-			productName = "AjarisUploader-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* AjarisUploader-tvOSTests.xctest */;
+			name = "AjarisUploaderMobile-tvOSTests";
+			productName = "AjarisUploaderMobile-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* AjarisUploaderMobile-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B820840F2307256D00CF75D4 /* Share Intent */ = {
@@ -749,7 +749,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AjarisUploader" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AjarisUploaderMobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -785,10 +785,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AjarisUploader */,
-				00E356ED1AD99517003FC87E /* AjarisUploaderTests */,
-				2D02E47A1E0B4A5D006451C7 /* AjarisUploader-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* AjarisUploader-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* AjarisUploaderMobile */,
+				00E356ED1AD99517003FC87E /* AjarisUploaderMobileTests */,
+				2D02E47A1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOSTests */,
 				B820840F2307256D00CF75D4 /* Share Intent */,
 			);
 		};
@@ -1044,7 +1044,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AjarisUploader-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AjarisUploaderMobile-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1066,7 +1066,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AjarisUploader-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AjarisUploaderMobile-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1088,7 +1088,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AjarisUploader-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AjarisUploaderMobile-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1110,7 +1110,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AjarisUploaderTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AjarisUploaderMobileTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1162,7 +1162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AjarisUploaderTests.m in Sources */,
+				00E356F31AD99517003FC87E /* AjarisUploaderMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1188,7 +1188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* AjarisUploaderTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* AjarisUploaderMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,12 +1205,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AjarisUploader */;
+			target = 13B07F861A680F5B00A75B9A /* AjarisUploaderMobile */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* AjarisUploader-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* AjarisUploaderMobile-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 		B820841A2307256D00CF75D4 /* PBXTargetDependency */ = {
@@ -1237,7 +1237,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = AjarisUploader;
+			path = AjarisUploaderMobile;
 			sourceTree = "<group>";
 		};
 		B82084152307256D00CF75D4 /* MainInterface.storyboard */ = {
@@ -1253,14 +1253,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderTests.debug.xcconfig */;
+			baseConfigurationReference = 3C6AF32F9E7937F68666584E /* Pods-AjarisUploaderMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AjarisUploaderTests/Info.plist;
+				INFOPLIST_FILE = AjarisUploaderMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1268,19 +1268,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploader.app/AjarisUploader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploaderMobile.app/AjarisUploaderMobile";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 504D277AA69CE8B978FE363C /* Pods-AjarisUploaderTests.release.xcconfig */;
+			baseConfigurationReference = 504D277AA69CE8B978FE363C /* Pods-AjarisUploaderMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AjarisUploaderTests/Info.plist;
+				INFOPLIST_FILE = AjarisUploaderMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1288,56 +1288,56 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploader.app/AjarisUploader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploaderMobile.app/AjarisUploaderMobile";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD5BDAA12390473EB255698B /* Pods-AjarisUploader.debug.xcconfig */;
+			baseConfigurationReference = BD5BDAA12390473EB255698B /* Pods-AjarisUploaderMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = AjarisUploader/Info.plist;
+				INFOPLIST_FILE = AjarisUploaderMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AjarisUploader;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AjarisUploaderMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58A343174D1893371DA553F8 /* Pods-AjarisUploader.release.xcconfig */;
+			baseConfigurationReference = 58A343174D1893371DA553F8 /* Pods-AjarisUploaderMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AjarisUploader/Info.plist;
+				INFOPLIST_FILE = AjarisUploaderMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AjarisUploader;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AjarisUploaderMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploader-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5A3945E3CB9B3F2A49073D3C /* Pods-AjarisUploaderMobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1348,14 +1348,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AjarisUploader-tvOS/Info.plist";
+				INFOPLIST_FILE = "AjarisUploaderMobile-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploader-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploaderMobile-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1365,7 +1365,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18A3837E4D6A193EA60BF02C /* Pods-AjarisUploader-tvOS.release.xcconfig */;
+			baseConfigurationReference = 18A3837E4D6A193EA60BF02C /* Pods-AjarisUploaderMobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1376,14 +1376,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AjarisUploader-tvOS/Info.plist";
+				INFOPLIST_FILE = "AjarisUploaderMobile-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploader-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploaderMobile-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1393,7 +1393,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3C35E838FE65548F62FDE27 /* Pods-AjarisUploader-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = B3C35E838FE65548F62FDE27 /* Pods-AjarisUploaderMobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1403,24 +1403,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AjarisUploader-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AjarisUploaderMobile-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploader-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploaderMobile-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploader-tvOS.app/AjarisUploader-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploaderMobile-tvOS.app/AjarisUploaderMobile-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 880FC223A7FFD297DEA19F3F /* Pods-AjarisUploader-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 880FC223A7FFD297DEA19F3F /* Pods-AjarisUploaderMobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1430,17 +1430,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AjarisUploader-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AjarisUploaderMobile-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploader-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AjarisUploaderMobile-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploader-tvOS.app/AjarisUploader-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjarisUploaderMobile-tvOS.app/AjarisUploaderMobile-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1571,7 +1571,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.AjarisUploader.Share-Intent";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.AjarisUploaderMobile.Share-Intent";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1606,7 +1606,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploader.AjarisUploader.Share-Intent";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.AjarisUploaderMobile.AjarisUploaderMobile.Share-Intent";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1617,7 +1617,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AjarisUploaderTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AjarisUploaderMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1626,7 +1626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AjarisUploader" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1635,7 +1635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploader-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1644,7 +1644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploader-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AjarisUploaderMobile-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1653,7 +1653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AjarisUploader" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AjarisUploaderMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
