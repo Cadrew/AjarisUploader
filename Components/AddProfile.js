@@ -3,7 +3,7 @@ import { StyleSheet, Text } from 'react-native'
 import { connect } from 'react-redux'
 import { postLogIn, getUrl, postLogOut, postProfile, postSend } from "../API/AjarisAPI";
 
-class AddProfiles extends React.Component {
+class AddProfile extends React.Component {
     profiles = {
         data: ''
     }
@@ -19,3 +19,11 @@ class AddProfiles extends React.Component {
 }
 
 const styles = StyleSheet.create({})
+
+const mapStateToProps = state => {
+  return {
+    favoritesFilm: state.favoritesFilm
+  }
+}
+
+export default connect(mapStateToProps)(AddProfile)

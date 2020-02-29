@@ -9,9 +9,9 @@ import Search from "../Components/Search";
 import Profiles from "../Components/Profiles";
 import FilmDetail from "../Components/FilmDetail";
 import Favorites from "../Components/Favorites";
-import Test from "../Components/Test";
+import AddProfile from "../Components/AddProfile";
 
-const ProfilesStackNavigator = createStackNavigator({
+export const ProfilesStackNavigator = createStackNavigator({
   Profiles: {
     screen: Profiles,
     navigationOptions: {
@@ -20,7 +20,16 @@ const ProfilesStackNavigator = createStackNavigator({
   }
 });
 
-const SearchStackNavigator = createStackNavigator({
+export const AddProfileStackNavigator = createStackNavigator({
+  AddProfile: {
+    screen: AddProfile,
+    navigationOptions: {
+      title: "Ajouter un profil"
+    }
+  }
+});
+
+export const SearchStackNavigator = createStackNavigator({
   Search: {
     screen: Search,
     navigationOptions: {
@@ -32,7 +41,7 @@ const SearchStackNavigator = createStackNavigator({
   }
 });
 
-const FavoritesStackNavigator = createStackNavigator({
+export const FavoritesStackNavigator = createStackNavigator({
   Favorites: {
     screen: Favorites,
     navigationOptions: {

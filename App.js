@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {Text} from 'react-native';
-import Navigation from "./Navigation/Navigation";
 import { Provider } from "react-redux";
 import Store from "./Store/configureStore";
 
 import RNFileShareIntent from "react-native-file-share-intent";
+import Navigation from "./Navigation/Navigation";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ export default class App extends Component {
       });
     }
   }
+
   render() {
     var uri = this.state.fileUrl;
     return (
