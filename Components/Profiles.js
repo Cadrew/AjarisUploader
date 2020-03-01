@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, View, Image, Text } from 'react-native'
+import { StyleSheet, TouchableOpacity, View, Image, Text, TextInput, ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 import { ListItem, Icon } from 'react-native-elements'
 import { Provider } from "react-redux";
@@ -28,6 +28,8 @@ function setRows(data) {
 
 function Profile({ navigation }) {
     let r = getRows();
+    //const [listProfiles, setListProfiles] = React.useState("");
+    //setListProfiles(getRows());
     return (
         <View style={{ flex: 1 }}>
             <View>
@@ -36,22 +38,7 @@ function Profile({ navigation }) {
 
             <TouchableOpacity
                 onPress={() => navigation.navigate('AddProfile')}
-                style={{
-                    borderWidth:1,
-                    borderColor:'rgb(93, 156, 236)',
-                    alignItems:'center',
-                    justifyContent:'center',
-                    width: 70,
-                    position: 'absolute',
-                    bottom: 10,
-                    right: 10,
-                    height: 70,
-                    backgroundColor: 'rgb(93, 156, 236)',
-                    zIndex: 100,
-                    borderRadius: 100,
-                    shadowColor: '#000',
-                    elevation: 3,
-                }}
+                style={ styles.newProfileButton }
             >
                 <Image style={{width: 50, height: 50}} source={require('../Images/ic_plus.png')} />
             </TouchableOpacity>
@@ -60,8 +47,76 @@ function Profile({ navigation }) {
 }
 
 function AddProfile({ navigation }) {
+    const [name, setName] = React.useState("");
+    const [url, setUrl] = React.useState("");
+    const [login, setLogin] = React.useState("");
+    const [pwd, setPwd] = React.useState("");
+    const [base, setBase] = React.useState("");
+    const [profile, setProfile] = React.useState("");
     return (
-        <Text style={{ fontSize: 20, color: "black" }} onPress={() => navigation.goBack() }> Add Profile </Text>
+        <View>
+            <Text>Nom du profil utilisateur :</Text>
+            <TextInput
+                style={ styles.textInputAddProfile }
+                placeholder="Nom du profil utilisateur"
+                value={ name }
+                onChangeText={text => setName(text) }
+            />
+            <Text>URL :</Text>
+            <TextInput
+                style={ styles.textInputAddProfile }
+                placeholder="URL"
+                value={ url }
+                onChangeText={text => setUrl(text) }
+            />
+            <Text>Identifiant :</Text>
+            <TextInput
+                style={ styles.textInputAddProfile }
+                placeholder="Identifiant"
+                value={ login }
+                onChangeText={text => setLogin(text) }
+            />
+            <Text>Mot de passe :</Text>
+            <TextInput
+                secureTextEntry={ true }
+                style={ styles.textInputAddProfile }
+                placeholder="Mot de passe"
+                value={ pwd }
+                onChangeText={text => setPwd(text) }
+            />
+            <Text>Base :</Text>
+            <TextInput
+                style={ styles.textInputAddProfile }
+                placeholder="Base"
+                value={ base }
+                onChangeText={text => setBase(text) }
+            />
+            <Text>Profil d'import :</Text>
+            <TextInput
+                style={ styles.textInputAddProfile }
+                placeholder="Profil d'import"
+                value={ profile }
+                onChangeText={text => setProfile(text) }
+            />
+            <Text>{'\n'}</Text>
+            <TouchableOpacity
+                onPress={() => 
+                    _addProfile({ name: name, login: login, url: url, pwd: pwd, base: base, avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg' }).then(() => {
+                        navigation.navigate('Profile');
+                    })
+                }
+                style={ styles.addProfileButton }
+            >
+                <Text>Ajouter le profil</Text>
+            </TouchableOpacity>
+            <Text>{'\n'}</Text>
+            <TouchableOpacity
+                onPress={() => navigation.goBack()}
+                style={ styles.cancelProfileButton }
+            >
+                <Text>Annuler</Text>
+            </TouchableOpacity>
+        </View>
     )
 }
 
@@ -83,24 +138,30 @@ function AjarisStack() {
 class Profiles extends React.Component {
     constructor () {
         super()
-        this.state = { profiles: [] }
+        this.state = { isLoading: true }
     }
 
     componentDidMount = () => {
+        this.focusListener = this.props.navigation.addListener('didFocus', () => {
+            this.setState({ count: 0 });
+        });
         //_removeAllProfiles().then(() => {
-            //_addProfile({ name: "Alexandre Do-o Almeida", login: "Thulium", url: "test.com", pwd: "test", base: 1, avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg' }).then(() => {
+            //_addProfile({ name: "Adrien Canino", login: "Cadrew", url: "test.com", pwd: "test", base: 1, avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg' }).then(() => {
                 _retrieveProfiles().then(() => {
                     setRows(getProfiles());
-                    this.setState({ profiles: getProfiles() });
+                    this.setState({ isLoading: false });
                 });
             //});
         //});
     }
 
     render() {
-        return (this.state.profiles.length <= 0 ? <Text></Text> :
+        return (this.state.isLoading ?         
+            <View style={ styles.loadingContainer }>
+                <ActivityIndicator size='large' />
+            </View> :
             <Provider store={Store}>
-                <NavigationContainer independent={true}>
+                <NavigationContainer independent={ true }>
                     <AjarisStack />
                 </NavigationContainer>
             </Provider>
@@ -108,7 +169,52 @@ class Profiles extends React.Component {
     }
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    loadingContainer: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: 100,
+      bottom: 0,
+      alignItems: 'center',
+      justifyContent: 'center'
+    },
+    newProfileButton: {
+        borderWidth:1,
+        borderColor:'rgb(93, 156, 236)',
+        alignItems:'center',
+        justifyContent:'center',
+        width: 70,
+        position: 'absolute',
+        bottom: 10,
+        right: 10,
+        height: 70,
+        backgroundColor: 'rgb(93, 156, 236)',
+        zIndex: 100,
+        borderRadius: 100,
+        shadowColor: '#000',
+        elevation: 3,
+    },
+    addProfileButton: {
+        borderWidth: 1,
+        borderColor: 'rgb(93, 156, 236)',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgb(93, 156, 236)',
+    },
+    cancelProfileButton: {
+        borderWidth: 1,
+        borderColor: 'rgb(93, 156, 236)',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgb(93, 156, 236)',
+    },
+    textInputAddProfile: {
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1
+    }
+})
 
 const mapStateToProps = state => {
   return {

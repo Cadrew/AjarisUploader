@@ -9,22 +9,22 @@ import Search from "../Components/Search";
 import Profiles from "../Components/Profiles";
 import FilmDetail from "../Components/FilmDetail";
 import Favorites from "../Components/Favorites";
-import AddProfile from "../Components/AddProfile";
+import About from "../Components/About";
 
 export const ProfilesStackNavigator = createStackNavigator({
   Profiles: {
     screen: Profiles,
     navigationOptions: {
-      title: "Profiles"
+      title: "Profils"
     }
   }
 });
 
-export const AddProfileStackNavigator = createStackNavigator({
-  AddProfile: {
-    screen: AddProfile,
+export const AboutStackNavigator = createStackNavigator({
+  About: {
+    screen: About,
     navigationOptions: {
-      title: "Ajouter un profil"
+      title: "À propos"
     }
   }
 });
@@ -81,8 +81,8 @@ const AjarisTabNavigator = createBottomTabNavigator(
         }
       }
     },
-    Favorites: {
-      screen: FavoritesStackNavigator,
+    About: {
+      screen: AboutStackNavigator,
       navigationOptions: {
         tabBarIcon: () => {
           return (
